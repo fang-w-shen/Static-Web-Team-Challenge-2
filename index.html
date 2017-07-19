@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Challenge 2</title>
+		<link rel="stylesheet" type="text/css" href="main.css">
+	</head>
+	<body>
+		<div id="one" onclick="revealform1();">
+		Block1
+		</div>
+
+		<div id="two" onclick="revealform2();">
+		Block2
+		</div>
+
+		<div id="three" onclick="revealform3();">
+		Block3
+		</div>
+
+		<form id="form1" class="hidden1">
+			<label for="color">Choose your background color for block1:</label>
+			<input type="text" id="color1" name="color">
+			<input type="button" name="" value="Change Color" onclick="changecolor1();">
+		</form>
+
+		<form id="form2" class="hidden2">
+			<label for="color">Choose your background color for block2:</label>
+			<input type="text" id="color2" name="color">
+			<input type="button" name="" value="Change Color" onclick="changecolor2();">
+		</form>
+
+		<form id="form3" class="hidden3">
+			<label for="color">Choose your background color for block3:</label>
+			<input type="text" id="color3" name="color">
+			<input type="button" name="" value="Change Color" onclick="changecolor3();">
+		</form>
+
+	<script type="text/javascript" src="main.js"></script>
+	</body>
+</html>
